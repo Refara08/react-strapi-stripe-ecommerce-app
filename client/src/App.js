@@ -4,10 +4,11 @@ import Navbar from "./components/navbar/Navbar";
 import Home from "./pages/home/Home";
 import Product from "./pages/product/Product";
 import Products from "./pages/products/Products";
+import "./app.scss";
 
 const Layout = () => {
   return (
-    <div>
+    <div className="app">
       <Navbar />
       <Outlet />
       <Footer />
